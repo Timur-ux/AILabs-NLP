@@ -1,6 +1,8 @@
 services:
   ollama:
     restart: always
+    devices:
+      - "nvidia.com/gpu=all"
     build:
       context: .
       dockerfile: ./docker/ollama.Dockerfile

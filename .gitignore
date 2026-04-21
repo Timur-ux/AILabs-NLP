@@ -1,3 +1,4 @@
 pyrightconfig.json
-venv/
+venV/
 __pycache__
+*.csv
